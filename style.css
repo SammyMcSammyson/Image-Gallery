@@ -1,0 +1,20 @@
+.thumbnailbar {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  background-color: rgb(131, 85, 0);
+  bottom: 3vh;
+  padding: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  gap: 5px;
+}
+
+.mainPictures img {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  object-fit: cover;
+}
