@@ -1,6 +1,7 @@
 .thumbnailbar {
+  /* adding the CSS for the thumgnail bar I have put it at teh */
   display: flex;
-  position: absolute;
+  position: fixed;
   justify-content: center;
   align-items: center;
   z-index: 1;
@@ -13,6 +14,7 @@
 }
 
 .mainPictures img {
+  /* Mainpictures bar I have not used media queires since this seems to acheive what I need to. */
   width: 100%;
   height: 100vh;
   overflow: hidden;
