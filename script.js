@@ -4,32 +4,26 @@ console.log(`checking that everything is all linked up like the matrix`); //chec
 
 let pictures = [
   {
-    src: `Projects/Image-Gallery/Assests/Kohl Mock.jpeg`,
-    alt: `mountain range`,
+    src: `https://github.com/SammyMcSammyson/Image-Gallery/blob/main/Assests/Kohl%20Mock.jpeg?raw=true`,
+    alt: `watch`,
     width: 50,
     height: 50,
   },
   {
-    src: `https://wallpapers.com/images/featured/4k-space-9w27dqmc4nrs3xwd.jpg`,
-    alt: `astranaut`,
+    src: `https://github.com/SammyMcSammyson/Image-Gallery/blob/main/Assests/Kohl%20strap.jpg?raw=true`,
+    alt: `watch strap`,
     width: 50,
     height: 50,
   },
   {
-    src: `https://t4.ftcdn.net/jpg/05/53/48/87/360_F_553488732_6GhfwBhYFelkhgYykFHXqLY7Rasubfcs.jpg`,
-    alt: `leaves`,
+    src: `https://github.com/SammyMcSammyson/Image-Gallery/blob/main/Assests/kohl%20casing.jpg?raw=true`,
+    alt: `watch case`,
     width: 50,
     height: 50,
   },
   {
-    src: `https://asset.gecdesigns.com/img/wallpapers/blue-purple-beautiful-scenery-ultra-hd-wallpaper-4k-sr10012421-1706505497434-cover.webp`,
-    alt: `night sky`,
-    width: 50,
-    height: 50,
-  },
-  {
-    src: `https://images6.alphacoders.com/106/1069078.jpg`,
-    alt: `skull`,
+    src: `https://github.com/SammyMcSammyson/Image-Gallery/blob/main/Assests/kohl%20face.jpg?raw=true`,
+    alt: `watch face`,
     width: 50,
     height: 50,
   },
