@@ -4,7 +4,7 @@ console.log(`checking that everything is all linked up like the matrix`); //chec
 
 let pictures = [
   {
-    src: `https://images.pexels.com/photos/1525041/pexels-photo-1525041.jpeg?cs=srgb&dl=pexels-francesco-ungaro-1525041.jpg&fm=jpg`,
+    src: `Projects/Image-Gallery/Assests/Kohl Mock.jpeg`,
     alt: `mountain range`,
     width: 50,
     height: 50,
@@ -68,36 +68,36 @@ thumbnail(); //running the function so it appears.
 
 document.getElementById("rightarrow").addEventListener("click", rightArrow);
 
-function rightArrow() {
-  let currentImage = document.getElementById("mainPictures").src;
-  if (
-    currentImage ===
-    "https://images.pexels.com/photos/1525041/pexels-photo-1525041.jpeg?cs=srgb&dl=pexels-francesco-ungaro-1525041.jpg&fm=jpg"
-  ) {
-    document.getElementById("mainPictures").src =
-      "https://wallpapers.com/images/featured/4k-space-9w27dqmc4nrs3xwd.jpg";
-  } else if (
-    currentImage ===
-    "https://wallpapers.com/images/featured/4k-space-9w27dqmc4nrs3xwd.jpg"
-  ) {
-    document.getElementById("mainPictures").src =
-      "https://t4.ftcdn.net/jpg/05/53/48/87/360_F_553488732_6GhfwBhYFelkhgYykFHXqLY7Rasubfcs.jpg";
-  } else if (
-    currentImage ===
-    "https://t4.ftcdn.net/jpg/05/53/48/87/360_F_553488732_6GhfwBhYFelkhgYykFHXqLY7Rasubfcs.jpg"
-  ) {
-    document.getElementById("mainPictures").src =
-      "https://asset.gecdesigns.com/img/wallpapers/blue-purple-beautiful-scenery-ultra-hd-wallpaper-4k-sr10012421-1706505497434-cover.webp";
-  } else if (
-    currentImage ===
-    "https://asset.gecdesigns.com/img/wallpapers/blue-purple-beautiful-scenery-ultra-hd-wallpaper-4k-sr10012421-1706505497434-cover.webp"
-  ) {
-    document.getElementById("mainPictures").src =
-      "https://images6.alphacoders.com/106/1069078.jpg";
-  } else if (
-    currentImage === "https://images6.alphacoders.com/106/1069078.jpg"
-  ) {
-    document.getElementById("mainPictures").src =
-      "https://images.pexels.com/photos/1525041/pexels-photo-1525041.jpeg?cs=srgb&dl=pexels-francesco-ungaro-1525041.jpg&fm=jpg";
-  }
-}
+// function rightArrow() {
+//   let currentImage = document.getElementById("mainPictures").src;
+//   if (
+//     currentImage ===
+//     "https://images.pexels.com/photos/1525041/pexels-photo-1525041.jpeg?cs=srgb&dl=pexels-francesco-ungaro-1525041.jpg&fm=jpg"
+//   ) {
+//     document.getElementById("mainPictures").src =
+//       "https://wallpapers.com/images/featured/4k-space-9w27dqmc4nrs3xwd.jpg";
+//   } else if (
+//     currentImage ===
+//     "https://wallpapers.com/images/featured/4k-space-9w27dqmc4nrs3xwd.jpg"
+//   ) {
+//     document.getElementById("mainPictures").src =
+//       "https://t4.ftcdn.net/jpg/05/53/48/87/360_F_553488732_6GhfwBhYFelkhgYykFHXqLY7Rasubfcs.jpg";
+//   } else if (
+//     currentImage ===
+//     "https://t4.ftcdn.net/jpg/05/53/48/87/360_F_553488732_6GhfwBhYFelkhgYykFHXqLY7Rasubfcs.jpg"
+//   ) {
+//     document.getElementById("mainPictures").src =
+//       "https://asset.gecdesigns.com/img/wallpapers/blue-purple-beautiful-scenery-ultra-hd-wallpaper-4k-sr10012421-1706505497434-cover.webp";
+//   } else if (
+//     currentImage ===
+//     "https://asset.gecdesigns.com/img/wallpapers/blue-purple-beautiful-scenery-ultra-hd-wallpaper-4k-sr10012421-1706505497434-cover.webp"
+//   ) {
+//     document.getElementById("mainPictures").src =
+//       "https://images6.alphacoders.com/106/1069078.jpg";
+//   } else if (
+//     currentImage === "https://images6.alphacoders.com/106/1069078.jpg"
+//   ) {
+//     document.getElementById("mainPictures").src =
+//       "https://images.pexels.com/photos/1525041/pexels-photo-1525041.jpeg?cs=srgb&dl=pexels-francesco-ungaro-1525041.jpg&fm=jpg";
+//   }
+// }
