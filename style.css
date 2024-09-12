@@ -1,3 +1,6 @@
+* {
+  background-color: #faf9f6d8;
+}
 .thumbnailbar {
   /* adding the CSS for the thumgnail bar I have put it at teh */
   display: flex;
@@ -16,7 +19,51 @@
 .mainPictures img {
   /* Mainpictures bar I have not used media queires since this seems to acheive what I need to. */
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   overflow: hidden;
-  object-fit: cover;
+  object-fit: contain;
+}
+
+.nav {
+  /*nav bar - aiming to make it horizontal across the top with individual placement in different places */
+  list-style: none;
+  width: 100%;
+}
+
+.mainnavbar {
+  /*code for Nav bar code for making a list*/
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.mainnavlink {
+  /*changing font size for main list so it stands out more*/
+  font-size: larger;
+  /* pointer-events: none; */
+}
+
+li {
+  /*code for Nav bar elements in my list */
+  margin: 1%;
+  width: 10%;
+  display: inline-block;
+}
+a {
+  /*code for Nav bar making the individual elements in the list look nice also setting up for the transition effect*/
+  font-size: 100%;
+  padding: 5%;
+  color: rgb(126, 193, 215);
+  text-decoration: none;
+  background-image: linear-gradient(lightblue, lightblue);
+  background-repeat: no-repeat;
+  background-size: 100% 0;
+  transition: 1s;
+}
+
+a:hover {
+  /*code for Nav bar when hover over a list changes the color of the writing - and highlights slowly*/
+  color: black;
+  background-size: 100% 100%;
 }
