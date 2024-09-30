@@ -34,25 +34,25 @@ let pictures = [
 function thumbnail() {
   for (let img of pictures) {
     //going for a "catch all" function which creates sets attirubutes etc. for my thumbnail for each object in my array. tried to use a for each function initally but this seemed easier - i say this because I spent an hour and could not get for each to work spent 20 minutes and had my for function up and running...
-    const thumbnailPic = document.getElementById("thumbnail");
-    const thumbnailCreate = document.createElement("img");
+    const thumbnailPic = document.getElementById('thumbnail');
+    const thumbnailCreate = document.createElement('img');
 
-    thumbnailCreate.setAttribute("src", img.src);
-    thumbnailCreate.setAttribute("alt", img.alt);
-    thumbnailCreate.setAttribute("width", img.width);
-    thumbnailCreate.setAttribute("height", img.height);
+    thumbnailCreate.setAttribute('src', img.src);
+    thumbnailCreate.setAttribute('alt', img.alt);
+    thumbnailCreate.setAttribute('width', img.width);
+    thumbnailCreate.setAttribute('height', img.height);
 
     thumbnailPic.appendChild(thumbnailCreate);
 
-    thumbnailPic.addEventListener("click", largeImageHandler); //making large picture from thumbnail.
+    thumbnailPic.addEventListener('click', largeImageHandler); //making large picture from thumbnail.
   }
 }
 
 function largeImageHandler(e) {
   //handling the image
-  document.getElementById("mainPictures").innerHTML = ""; //clearing the HTML so pages don't load after one another
-  const mainPictures = document.getElementById("mainPictures"); //setting variable to find div I want to put image in
-  const createdImage = document.createElement("img"); //creating image in that div
+  document.getElementById('mainPictures').innerHTML = ''; //clearing the HTML so pages don't load after one another
+  const mainPictures = document.getElementById('mainPictures'); //setting variable to find div I want to put image in
+  const createdImage = document.createElement('img'); //creating image in that div
   createdImage.src = e.target.src; //copying code from the function onto new image
   createdImage.alt = e.target.alt; //copying code from the function onto new image
   mainPictures.appendChild(createdImage); // appending it on to the div
@@ -60,7 +60,7 @@ function largeImageHandler(e) {
 
 thumbnail(); //running the function so it appears.
 
-document.getElementById("rightarrow").addEventListener("click", rightArrow);
+// document.getElementById('rightarrow').addEventListener('click', rightArrow);
 
 // function rightArrow() {
 //   let currentImage = document.getElementById("mainPictures").src;

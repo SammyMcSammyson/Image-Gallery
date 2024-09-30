@@ -40,3 +40,7 @@ I can also do some more styling to make the Nav bar look nicer. ----Update 10/09
 ---Update 11/09/2024 ---
 
 Started repurspusing the code I have an idea...lets see how it goes ...
+
+---Update 30/09/2024---
+
+Changed the front page to add some more styling and actually make it look like semi decent. Still need to tweek the "Discover" button. But overall I think it is a solid start.

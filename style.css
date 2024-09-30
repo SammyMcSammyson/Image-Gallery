@@ -1,5 +1,6 @@
 * {
   background-color: #faf9f6d8;
+  font-family: 'Courier';
 }
 .thumbnailbar {
   /* adding the CSS for the thumgnail bar I have put it at teh */
@@ -41,6 +42,8 @@
 .mainnavlink {
   /*changing font size for main list so it stands out more*/
   font-size: larger;
+  text-decoration: none;
+
   /* pointer-events: none; */
 }
 
@@ -50,7 +53,7 @@ li {
   width: 10%;
   display: inline-block;
 }
-a {
+.navLink {
   /*code for Nav bar making the individual elements in the list look nice also setting up for the transition effect*/
   font-size: 100%;
   padding: 5%;
@@ -62,8 +65,97 @@ a {
   transition: 1s;
 }
 
-a:hover {
+.navLink:hover {
   /*code for Nav bar when hover over a list changes the color of the writing - and highlights slowly*/
   color: black;
   background-size: 100% 100%;
+}
+
+.introductionPhrase {
+  /* introdcue the slogan character by character */
+  color: black;
+  font-family: 'Courier';
+  font-size: 24px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 4s steps(60, end);
+}
+
+@keyframes type {
+  /* key frames for the slogan code */
+  from {
+    width: 0;
+  }
+}
+
+.discoverButton {
+  margin: 20%;
+  /* background-color: rgb(255, 145, 0); */
+  /* display: inline-block; */
+}
+.discoverTitle {
+  /* title for button*/
+  color: black;
+  font-family: 'Courier';
+  font-size: 12px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 10em;
+  animation: type 2s steps(60, end);
+  animation-delay: 5s;
+  animation-fill-mode: both;
+}
+.discoverName {
+  /* introdcue the name character by character */
+  color: black;
+  font-family: 'Courier';
+  font-size: 36px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 7em;
+  animation: type 2s steps(60, end);
+  animation-delay: 7s;
+  animation-fill-mode: both;
+}
+
+.mainpagebutton {
+  color: black;
+  font-family: 'Courier';
+  font-size: 12px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  /* animation: type 4s steps(60, end);
+  animation-delay: 9s;
+  animation-fill-mode: both; */
+  text-decoration: none;
+  border: none;
+  opacity: 0;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 8em;
+  margin: -8em;
+}
+.mainpagebutton:hover {
+  font-family: 'Courier';
+  font-size: 12px;
+  color: rgb(126, 193, 215);
+  text-decoration: none;
+  cursor: pointer;
+  background-image: white;
+  background-repeat: no-repeat;
+  background-size: 100% 0;
+  border: none;
+  opacity: 1;
+}
+.firstPictures {
+  float: right;
+  margin: 100px 200px 0 0;
+  /* background-color: blue; */
 }
